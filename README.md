@@ -14,6 +14,8 @@ For the LDAP server to run correctly some variables are required:
 - *LDAP_ROOT_DN*: the DN of the root "user"
 - *LDAP_ROOT_PASSWORD*: the password for the Root DN "user"
 - *LDAP_SUFFIX*: the suffix to use for the root database
+- *LDAP_RUN_USER* the user with which the LDAP server will run, defaults to "root" (if the container runs as root, the default, then the user will not be created).
+- *LDAP_RUN_GROUP* the group with which the LDAP server will run, defaults to "root"
 
 ## Replication
 
